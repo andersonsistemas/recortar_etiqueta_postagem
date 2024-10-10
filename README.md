@@ -7,3 +7,11 @@ Eu criei 3 arquivos .py, um para cada plataforma.
 E além disso, a única forma que consegui implementar usa um arquivo temporário de recorte.
 Espero que seja útil para você!
 Se leu até aqui! Lhe desejo sucesso!
+
+-----------------------------------
+Atualização em 10-10-2024
+Adicionado Arquivos na Pasta GUI.
+Cada arquivo faz o recorte do arquivo pdf da respectiva empresa(ML, Shopee, OLX)
+Eles possuem interface gráfica para facilitar o uso.
+Consegui modificar o código com a ajuda do ChatGpt.
+Boa sorte! E boas vendas a todos e todas!
