@@ -5,7 +5,7 @@ import pymupdf
 #O arquivo que será buscado tem que estar com o nome Shopee.pdf
 doc = pymupdf.open("Shopee.pdf") # open document
 page1 = doc[0] # get the 1st page of the document
-page1.set_cropbox(pymupdf.Rect(0, 0, 306, 370))
+page1.set_cropbox(pymupdf.Rect(0, 0, 310, 410))
 page2 = doc[1] # get the 2st page of the document
 page2.set_cropbox(pymupdf.Rect(2, 0, 580, 551))
 #Aqui Criaremos um arquivo temporário com os cortes na página 1 e na página 2
