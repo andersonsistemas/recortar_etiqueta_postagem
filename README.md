@@ -15,3 +15,7 @@ Cada arquivo faz o recorte do arquivo pdf da respectiva empresa(ML, Shopee, OLX)
 Eles possuem interface gráfica para facilitar o uso.
 Consegui modificar o código com a ajuda do ChatGpt.
 Boa sorte! E boas vendas a todos e todas!
+
+--------------------------------------------------------------
+Atualização em 13-10-2024
+Atualizado área de corte etiqueta Shopee. 
