@@ -11,7 +11,7 @@ def processar_pdf(caminho_pdf):
 
         # Primeira página - recorte
         page1 = doc[0]  # Obtém a primeira página
-        page1.set_cropbox(fitz.Rect(0, 0, 306, 370))  # Aplica o recorte
+        page1.set_cropbox(fitz.Rect(0, 0, 310, 410))  # Aplica o recorte
 
         # Segunda página - recorte
         page2 = doc[1]  # Obtém a segunda página
