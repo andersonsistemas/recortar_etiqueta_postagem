@@ -33,6 +33,8 @@ A área de corte nesse caso fica assim:
 pagina 1 (0, 0, 310, 410)
 pagina 2 (0, 90, 580, 792)
 
+Adicionado o arquivo 'GUI_Recorte_Etiqueta_All.py'. Esse arquivo único recorta etiquetas das 3 plataformas. 
+
 SUCESSO!!!
 ----------------------------------------------------------------------------------------------------------------
 
