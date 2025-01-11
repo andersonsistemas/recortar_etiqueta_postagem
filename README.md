@@ -19,3 +19,23 @@ Boa sorte! E boas vendas a todos e todas!
 --------------------------------------------------------------
 Atualização em 13-10-2024
 Atualizado área de corte etiqueta Shopee. 
+
+
+--------------------------------------------------------------
+Atualização em 11/01/2025
+Atualizado área de corte etiqueta Shopee para emissores de NFe.
+Caso não a sua venda tenha apenas declaração de conteúdo mantenha a área de corte conforme parâmetros a seguir:
+pagina 1 (0, 0, 310, 410)
+pagina 2 (2, 0, 580, 551)
+
+Caso faça emissão de NFe, será preciso mesclar os 2 PDFs, depois excluir a página com a declaração de conteúdo (Isso pode ser feito gratuitamente no site ilovepdf em duas etapas.
+A área de corte nesse caso fica assim:
+pagina 1 (0, 0, 310, 410)
+pagina 2 (0, 90, 580, 792)
+
+SUCESSO!!!
+----------------------------------------------------------------------------------------------------------------
+
+
+
+
