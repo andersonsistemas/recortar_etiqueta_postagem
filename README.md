@@ -1,19 +1,13 @@
-# recortar_etiqueta_postagem
-Recorte suas etiquetas da Shopee, Mercado Livre e Olx.
-Para impressão em uma única página.
-Resolvi desenvolver esse código, digo de antemão que não sou especialista em Python.
-Consegui com esforço pessoal e ajuda de algumas pessoas.
-Fique a vontade para modificar e ajustar para o seu uso.
-Eu criei 3 arquivos .py, um para cada plataforma. 
-E além disso, a única forma que consegui implementar usa um arquivo .pdf temporário de recorte.
+# Código em Python Para Recortar etiquetas de postagem em papel A4
 
------------------------------------
-Atualização em 10-10-2024
-Adicionado Arquivos na Pasta GUI.
-Cada arquivo faz o recorte do arquivo pdf da respectiva empresa(ML, Shopee, OLX)
-Eles possuem interface gráfica para facilitar o uso.
-Consegui modificar o código com a ajuda do ChatGpt.
-Boa sorte! E boas vendas a todos e todas!
+Econimize papel e Recorte o PDF de suas etiquetas da Shopee, Mercado Livre e Olx.
+Para impressão em uma única página A4.
+Desenvolví esse código para me ajudar a economizar papel.
+Com isso economizei cerca de 40% de papel.
+Acho desnecessário imprimir a declaração de conteúdo ou NFe em uma única folha.
+Confesso, que eu consegui com esforço pessoal e ajuda de algumas pessoas. E uma ajudinha do ChatGpt.
+Fique a vontade para modificar e ajustar para o seu uso.
+A única forma que consegui implementar usa um arquivo temp.pdf temporário de recorte.
 
 --------------------------------------------------------------
 Atualização em 11/01/2025
@@ -27,9 +21,10 @@ A área de corte nesse caso está assim:
 pagina 1 (0, 0, 310, 410)
 pagina 2 (0, 90, 580, 792)
 
-Adicionado o arquivo 'GUI_Recorte_Etiqueta_All.py'. Esse arquivo único recorta etiquetas das 3 plataformas. 
+Adicionado o arquivo 'GUI_Recorte_Etiqueta_All.py'.
+Esse arquivo único recorta etiquetas das 3 plataformas. 
 
-SUCESSO!!!
+Boa sorte! E boas vendas a todos e todas! SUCESSO!!!
 ----------------------------------------------------------------------------------------------------------------
 
 
