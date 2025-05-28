@@ -1,5 +1,5 @@
 # Código em Python Para Recortar etiquetas de postagem em papel A4
-
+<img src="https://github.com/andersonsistemas/recortar_etiqueta_postagem/blob/main/Recorte_PDF_PY.png" alt="Recorte de Etiquetas em PDF">
 Econimize papel e Recorte o PDF de suas etiquetas da Shopee, Mercado Livre e Olx.
 Para impressão em uma única página A4.
 Desenvolví esse código para me ajudar a economizar papel.
