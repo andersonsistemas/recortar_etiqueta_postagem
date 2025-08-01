@@ -5,7 +5,7 @@ Para impressão em uma única página A4.
 Desenvolví esse código para me ajudar a economizar papel.
 Com isso economizei cerca de 40% de papel.
 Acho desnecessário imprimir a declaração de conteúdo ou NFe em uma única folha.
-Confesso, que eu consegui com esforço pessoal e ajuda de algumas pessoas. E uma ajudinha do ChatGpt.
+Confesso, que eu consegui com esforço pessoal e ajuda de algumas pessoas do grupo Python - BRASIL. E uma ajudinha do ChatGpt.
 Fique a vontade para modificar e ajustar para o seu uso.
 A única forma que consegui implementar usa um arquivo temp.pdf temporário de recorte.
 
