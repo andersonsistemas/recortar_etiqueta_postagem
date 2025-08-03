@@ -19,6 +19,7 @@ Ele é especialmente útil para vendedores que atuam em plataformas como Shopee,
  PyMuPDF
 
 Instalação:
+
 pip install PyMuPDF
 
 🛠️ Como usar
@@ -28,7 +29,8 @@ Execute o script GUI_Recorte_Etiqueta_All.py.
 Selecione o PDF original da etiqueta (com duas páginas).
 O sistema irá gerar um novo arquivo com o conteúdo ajustado para caber em uma única página.
 
-📝 Observações importantes
+📝 Observações importantes:
+
 Este script não é oficial e não possui vínculo com Shopee, Mercado Livre ou OLX.
 O corte foi calibrado para PDFs que possuem declaração de conteúdo em uma segunda página com baixo aproveitamento.
 
@@ -37,12 +39,12 @@ Se você emite NFe (Nota Fiscal Eletrônica), será necessário:
 Mesclar os dois PDFs (etiqueta + NFe)
 Excluir a página de declaração de conteúdo (pode usar gratuitamente o iLovePDF em duas etapas - Juntar e Organizar PDF )
 
-🧮 Áreas de corte utilizadas:
+🧮 Áreas de corte utilizadas(SHOPEE):
 ▶️ Caso sua venda tenha apenas declaração de conteúdo:
 Página 1: (0, 0, 310, 410)
 Página 2: (2, 0, 580, 551)
 
-▶️ Caso tenha emissão de NFe:
+▶️ Caso tenha emissão de NFe(Pode usar iLovePdf):
 Página 1: (0, 0, 310, 410)
 Página 2: (0, 90, 580, 792)
 
