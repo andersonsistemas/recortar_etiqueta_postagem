@@ -13,8 +13,10 @@ Ele é especialmente útil para vendedores que atuam em plataformas como Shopee,
 💾 Gera um arquivo temporário temp.pdf com o resultado final.
 
 📦 Requisitos:
- -Python (recomenda-se a versão mais recente) - http://python.org/downloads/
- -PyMuPDF
+ 
+ Python (recomenda-se a versão mais recente) - http://python.org/downloads/
+ 
+ PyMuPDF
 
 Instalação:
 pip install PyMuPDF
