@@ -1,32 +1,57 @@
-# Código em Python Para Recortar etiquetas de postagem em papel A4
+# 🧾 Recorte de Etiquetas em PDF [etiquetas em papel A4] – Shopee, Mercado Livre e OLX
 <img src="https://github.com/andersonsistemas/recortar_etiqueta_postagem/blob/main/Recorte_PDF_PY.png" alt="Recorte de Etiquetas em PDF">
-Econimize papel e Recorte o PDF de suas etiquetas da Shopee, Mercado Livre e Olx.
-Para impressão em uma única página A4.
-Desenvolví esse código para me ajudar a economizar papel.
-Com isso economizei cerca de 40% de papel.
-Acho desnecessário imprimir a declaração de conteúdo ou NFe em uma única folha.
-Confesso, que eu consegui com esforço pessoal e ajuda de algumas pessoas do grupo Python - BRASIL. E uma ajudinha do ChatGpt.
-Fique a vontade para modificar e ajustar para o seu uso.
-A única forma que consegui implementar usa um arquivo temp.pdf temporário de recorte.
 
---------------------------------------------------------------
-Atualização em 11/01/2025
-Atualizado área de corte etiqueta Shopee para emissores de NFe.
-Caso a sua venda tenha apenas declaração de conteúdo, mantenha a área de corte conforme parâmetros a seguir:
-pagina 1 (0, 0, 310, 410)
-pagina 2 (2, 0, 580, 551)
+Economize papel e otimize a impressão das suas etiquetas!
+Este projeto em Python foi criado para reorganizar etiquetas em PDF, recortando o conteúdo de duas páginas e ajustando para impressão em uma única folha A4.
+Ele é especialmente útil para vendedores que atuam em plataformas como Shopee, Mercado Livre e OLX, onde muitas vezes a segunda página da etiqueta ocupa apenas 30% do espaço.
 
-Caso faça emissão de NFe, será preciso mesclar os 2 PDFs, depois excluir a página com a declaração de conteúdo (Isso pode ser feito gratuitamente no site ilovepdf em duas etapas.
-A área de corte nesse caso está assim:
-pagina 1 (0, 0, 310, 410)
-pagina 2 (0, 90, 580, 792)
+✅ Funcionalidade
+📦 Junta o conteúdo útil de duas páginas em uma única página A4.
+✂️ Recorta áreas específicas de cada página com base em coordenadas predefinidas.
+🖨️ Ideal para impressão em impressoras jato de tinta ou laser.
+❌ Não compatível com impressoras térmicas (como Zebra TLP2844).
+💾 Gera um arquivo temporário temp.pdf com o resultado final.
 
-Adicionado o arquivo 'GUI_Recorte_Etiqueta_All.py'.
-Esse arquivo único recorta etiquetas das 3 plataformas. 
+📦 Requisitos:
+ -Python (recomenda-se a versão mais recente) - http://python.org/downloads/
+ -PyMuPDF
 
-Boa sorte! E boas vendas a todos e todas! SUCESSO!!!
-----------------------------------------------------------------------------------------------------------------
+Instalação:
+pip install PyMuPDF
 
+🛠️ Como usar
+Certifique-se de que o Python está instalado.
+Instale o módulo PyMuPDF com o comando acima.
+Execute o script GUI_Recorte_Etiqueta_All.py.
+Selecione o PDF original da etiqueta (com duas páginas).
+O sistema irá gerar um novo arquivo com o conteúdo ajustado para caber em uma única página.
 
+📝 Observações importantes
+Este script não é oficial e não possui vínculo com Shopee, Mercado Livre ou OLX.
+O corte foi calibrado para PDFs que possuem declaração de conteúdo em uma segunda página com baixo aproveitamento.
 
+No caso de etiqueta da Shopee:
+Se você emite NFe (Nota Fiscal Eletrônica), será necessário:
+Mesclar os dois PDFs (etiqueta + NFe)
+Excluir a página de declaração de conteúdo (pode usar gratuitamente o iLovePDF em duas etapas - Juntar e Organizar PDF )
 
+🧮 Áreas de corte utilizadas:
+▶️ Caso sua venda tenha apenas declaração de conteúdo:
+Página 1: (0, 0, 310, 410)
+Página 2: (2, 0, 580, 551)
+
+▶️ Caso tenha emissão de NFe:
+Página 1: (0, 0, 310, 410)
+Página 2: (0, 90, 580, 792)
+
+🤝 Agradecimentos
+Esse projeto foi desenvolvido com esforço pessoal, contando com a ajuda da comunidade Python Brasil e também com sugestões do ChatGPT da OpenAI.
+
+Sinta-se à vontade para adaptar, melhorar ou reutilizar o código conforme suas necessidades!
+
+✨ Contribuição
+Sugestões, melhorias ou correções são sempre bem-vindas!
+Abra um pull request ou issue aqui no repositório.
+
+🙌 Boa sorte e boas vendas!
+Sucesso a todos e todas!
