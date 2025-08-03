@@ -3,7 +3,7 @@
 
 Economize papel e otimize a impressão das suas etiquetas!
 Este projeto em Python foi criado para reorganizar etiquetas em PDF, recortando o conteúdo de duas páginas e ajustando para impressão em uma única folha A4.
-Ele é especialmente útil para vendedores que atuam em plataformas como Shopee, Mercado Livre e OLX, onde muitas vezes a segunda página da etiqueta ocupa apenas 30% do espaço.
+Ele é especialmente útil para vendedores que atuam em plataformas como Shopee, Mercado Livre e OLX, onde muitas vezes a primeira página da etiqueta ocupa apenas 40% do espaço.
 
 ✅ Funcionalidade
 📦 Junta o conteúdo útil de duas páginas em uma única página A4.
