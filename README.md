@@ -39,12 +39,14 @@ Se você emite NFe (Nota Fiscal Eletrônica), será necessário:
 Mesclar os dois PDFs (etiqueta + NFe)
 Excluir a página de declaração de conteúdo (pode usar gratuitamente o iLovePDF em duas etapas - Juntar e Organizar PDF )
 
-🧮 Áreas de corte utilizadas(SHOPEE):
-▶️ Caso sua venda tenha apenas declaração de conteúdo:
+Áreas de corte utilizadas(SHOPEE):
+
+Caso sua venda tenha apenas declaração de conteúdo:
+
 Página 1: (0, 0, 310, 410)
 Página 2: (2, 0, 580, 551)
 
-▶️ Caso tenha emissão de NFe(Pode usar iLovePdf):
+Caso tenha emissão de NFe(Pode usar iLovePdf):
 Página 1: (0, 0, 310, 410)
 Página 2: (0, 90, 580, 792)
 
@@ -53,9 +55,14 @@ Esse projeto foi desenvolvido com esforço pessoal, contando com a ajuda da comu
 
 Sinta-se à vontade para adaptar, melhorar ou reutilizar o código conforme suas necessidades!
 
-✨ Contribuição
+Contribuição:
 Sugestões, melhorias ou correções são sempre bem-vindas!
-Abra um pull request ou issue aqui no repositório.
+Toda ajuda é bem-vinda e me motiva a continuar trazendo conteúdo gratuito pra vocês.
+Se quiser ajudar com o pix:
+
+paidowifi@gmail.com
+
+Fique a vontade para abrir um pull request ou issue aqui no repositório.
 
 🙌 Boa sorte e boas vendas!
 Sucesso a todos e todas!
