@@ -47,6 +47,7 @@ Página 1: (0, 0, 310, 410)
 Página 2: (2, 0, 580, 551)
 
 Caso tenha emissão de NFe(Pode usar iLovePdf):
+
 Página 1: (0, 0, 310, 410)
 Página 2: (0, 90, 580, 792)
 
@@ -56,6 +57,7 @@ Esse projeto foi desenvolvido com esforço pessoal, contando com a ajuda da comu
 Sinta-se à vontade para adaptar, melhorar ou reutilizar o código conforme suas necessidades!
 
 Contribuição:
+
 Sugestões, melhorias ou correções são sempre bem-vindas!
 Toda ajuda é bem-vinda e me motiva a continuar trazendo conteúdo gratuito pra vocês.
 Se quiser ajudar com o pix:
