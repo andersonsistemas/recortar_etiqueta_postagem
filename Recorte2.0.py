@@ -16,10 +16,13 @@ def processar_pdf(caminho_pdf):
             x0_p2, y0_p2, x1_p2, y1_p2 = 2, 0, 590, 755    # Página 2
         elif escolha_plataforma.get() == 2:  # OLX
             x0_p1, y0_p1, x1_p1, y1_p1 = 240, 20, 580, 520 # Página 1
-            x0_p2, y0_p2, x1_p2, y1_p2 = 0, 20, 594, 792 # Página 2
-        elif escolha_plataforma.get() == 3:  # Shopee
-            x0_p1, y0_p1, x1_p1, y1_p1 = 0, 0, 310, 410 # Página 1
-            x0_p2, y0_p2, x1_p2, y1_p2 = 0, 90, 580, 792 # Página 2
+            x0_p2, y0_p2, x1_p2, y1_p2 = 0, 20, 594, 792   # Página 2
+        elif escolha_plataforma.get() == 3:  # Shopee (DC)
+            x0_p1, y0_p1, x1_p1, y1_p1 = 0, 0, 310, 410    # Página 1
+            x0_p2, y0_p2, x1_p2, y1_p2 = 2, 0, 580, 551    # Página 2
+        elif escolha_plataforma.get() == 4:  # Shopee (NFe)
+            x0_p1, y0_p1, x1_p1, y1_p1 = 0, 0, 310, 410    # Página 1
+            x0_p2, y0_p2, x1_p2, y1_p2 = 0, 90, 580, 792   # Página 2
 
         # Primeira página - recorte
         page1 = doc[0]
@@ -76,16 +79,18 @@ botao_selecionar = tk.Button(root, text="Selecionar Arquivo PDF", command=seleci
 botao_selecionar.pack(pady=10)
 
 # Definir a escolha da plataforma com RadioGroup
-escolha_plataforma = tk.IntVar(value=1)  # Variável que guarda a escolha (1=MercadoLivre, 2=OLX, 3=Shopee)
+escolha_plataforma = tk.IntVar(value=1)  # 1=MercadoLivre, 2=OLX, 3=Shopee (DC), 4=Shopee (NFe)
 
 # Radio buttons para selecionar a plataforma
 radio_ml = tk.Radiobutton(root, text="MercadoLivre", variable=escolha_plataforma, value=1)
 radio_olx = tk.Radiobutton(root, text="OLX", variable=escolha_plataforma, value=2)
-radio_shopee = tk.Radiobutton(root, text="Shopee", variable=escolha_plataforma, value=3)
+radio_shopee_dc = tk.Radiobutton(root, text="Shopee (DC)", variable=escolha_plataforma, value=3)
+radio_shopee_nfe = tk.Radiobutton(root, text="Shopee (NFe)", variable=escolha_plataforma, value=4)
 
 radio_ml.pack()
 radio_olx.pack()
-radio_shopee.pack()
+radio_shopee_dc.pack()
+radio_shopee_nfe.pack()
 
 # Botão para processar o PDF
 botao_processar = tk.Button(root, text="Processar PDF", command=lambda: processar_pdf(entrada_arquivo.get()), bg="lightgreen", fg="black")
