@@ -1,6 +1,7 @@
-# 🧾 Recorte de Etiquetas em PDF [etiquetas em papel A4] – Shopee, Mercado Livre e OLX
+# 🧾 Recorte de Etiquetas em PDF [etiquetas em papel A4] – Shopee, Mercado Livre e OLX (Atualizado 2.0)
 <img src="https://github.com/andersonsistemas/recortar_etiqueta_postagem/blob/main/Recorte_PDF_PY.png" alt="Recorte de Etiquetas em PDF">
 
+Atualização 2.0 (Vendedores da Shopee tem duas opções).
 Economize papel e otimize a impressão das suas etiquetas!
 Este projeto em Python foi criado para reorganizar etiquetas em PDF, recortando o conteúdo de duas páginas e ajustando para impressão em uma única folha A4.
 Ele é especialmente útil para vendedores que atuam em plataformas como Shopee, Mercado Livre e OLX, onde muitas vezes a primeira página da etiqueta ocupa apenas 40% do espaço.
@@ -35,21 +36,9 @@ Este script não é oficial e não possui vínculo com Shopee, Mercado Livre ou 
 O corte foi calibrado para PDFs que possuem declaração de conteúdo em uma segunda página com baixo aproveitamento.
 
 No caso de etiqueta da Shopee:
-Se você emite NFe (Nota Fiscal Eletrônica), será necessário:
-Mesclar os dois PDFs (etiqueta + NFe)
-Excluir a página de declaração de conteúdo (pode usar gratuitamente o iLovePDF em duas etapas - Juntar e Organizar PDF )
-
-Áreas de corte utilizadas(SHOPEE):
-
-Caso sua venda tenha apenas declaração de conteúdo:
-
-Página 1: (0, 0, 310, 410)
-Página 2: (2, 0, 580, 551)
-
-Caso tenha emissão de NFe(Pode usar iLovePdf):
-
-Página 1: (0, 0, 310, 410)
-Página 2: (0, 90, 580, 792)
+Se você emite NFe (Nota Fiscal Eletrônica), selecione Shopee(NFe):
+Antes, mesclar os dois PDFs (etiqueta + NFe) e excluir a página de declaração de conteúdo (pode usar gratuitamente o iLovePDF em duas etapas - Juntar e Organizar PDF ).
+Se só vende com a declaração de conteúdo, selecione Shopee (DC).
 
 🤝 Agradecimentos
 Esse projeto foi desenvolvido com esforço pessoal, contando com a ajuda da comunidade Python Brasil e também com sugestões do ChatGPT da OpenAI.
